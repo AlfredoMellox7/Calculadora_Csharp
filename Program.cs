@@ -17,6 +17,7 @@ class Program
         Console.WriteLine("3- Divisão");
         Console.WriteLine("4- Multiplicação");
         Console.WriteLine("5- Raíz Quadrada");
+        Console.WriteLine("6- Sair");
         Console.WriteLine("--------------------------------------");
         Console.WriteLine("Selecione o número da opção : ");
         short? res = short.Parse(Console.ReadLine()!);                  // Escolha do usuário 
@@ -25,8 +26,8 @@ class Program
             case 1: Soma(); break;
             case 2: Subtracao(); break;
             case 3: Divisao(); break;             
-            case 5: RaizQuadrada(); break;
             case 4: Multiplicacao(); break;          // Menu das funções 
+            case 5: RaizQuadrada(); break;
             case 6: System.Environment.Exit(0); break;
             default:Menu(); break;
         }
@@ -90,6 +91,7 @@ class Program
         Console.WriteLine($"O resultado da multiplicação do seu cálculo é {multiplicacao} .");  // Output para o usuário
         Console.WriteLine("----------------------------");
         Console.WriteLine("Deseja fazer outro cálculo ?");
+        Console.ReadKey();
         Menu();
     }
     static void RaizQuadrada()

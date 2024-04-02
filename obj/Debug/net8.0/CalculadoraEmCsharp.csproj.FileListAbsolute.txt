@@ -12,3 +12,4 @@ C:\projetosEmCSharP\projetosEmCSharp\CalculadoraEmCsharp\obj\Debug\net8.0\refint
 C:\projetosEmCSharP\projetosEmCSharp\CalculadoraEmCsharp\obj\Debug\net8.0\CalculadoraEmCsharp.pdb
 C:\projetosEmCSharP\projetosEmCSharp\CalculadoraEmCsharp\obj\Debug\net8.0\CalculadoraEmCsharp.genruntimeconfig.cache
 C:\projetosEmCSharP\projetosEmCSharp\CalculadoraEmCsharp\obj\Debug\net8.0\ref\CalculadoraEmCsharp.dll
+C:\projetosEmCSharP\projetosEmCSharp\CalculadoraEmCsharp\obj\Debug\net8.0\CalculadoraEmCsharp.sourcelink.json
