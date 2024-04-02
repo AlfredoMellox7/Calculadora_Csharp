@@ -1,0 +1,14 @@
+C:\projetosEmCSharP\projetosEmCSharp\CalculadoraEmCsharp\bin\Debug\net8.0\CalculadoraEmCsharp.exe
+C:\projetosEmCSharP\projetosEmCSharp\CalculadoraEmCsharp\bin\Debug\net8.0\CalculadoraEmCsharp.deps.json
+C:\projetosEmCSharP\projetosEmCSharp\CalculadoraEmCsharp\bin\Debug\net8.0\CalculadoraEmCsharp.runtimeconfig.json
+C:\projetosEmCSharP\projetosEmCSharp\CalculadoraEmCsharp\bin\Debug\net8.0\CalculadoraEmCsharp.dll
+C:\projetosEmCSharP\projetosEmCSharp\CalculadoraEmCsharp\bin\Debug\net8.0\CalculadoraEmCsharp.pdb
+C:\projetosEmCSharP\projetosEmCSharp\CalculadoraEmCsharp\obj\Debug\net8.0\CalculadoraEmCsharp.GeneratedMSBuildEditorConfig.editorconfig
+C:\projetosEmCSharP\projetosEmCSharp\CalculadoraEmCsharp\obj\Debug\net8.0\CalculadoraEmCsharp.AssemblyInfoInputs.cache
+C:\projetosEmCSharP\projetosEmCSharp\CalculadoraEmCsharp\obj\Debug\net8.0\CalculadoraEmCsharp.AssemblyInfo.cs
+C:\projetosEmCSharP\projetosEmCSharp\CalculadoraEmCsharp\obj\Debug\net8.0\CalculadoraEmCsharp.csproj.CoreCompileInputs.cache
+C:\projetosEmCSharP\projetosEmCSharp\CalculadoraEmCsharp\obj\Debug\net8.0\CalculadoraEmCsharp.dll
+C:\projetosEmCSharP\projetosEmCSharp\CalculadoraEmCsharp\obj\Debug\net8.0\refint\CalculadoraEmCsharp.dll
+C:\projetosEmCSharP\projetosEmCSharp\CalculadoraEmCsharp\obj\Debug\net8.0\CalculadoraEmCsharp.pdb
+C:\projetosEmCSharP\projetosEmCSharp\CalculadoraEmCsharp\obj\Debug\net8.0\CalculadoraEmCsharp.genruntimeconfig.cache
+C:\projetosEmCSharP\projetosEmCSharp\CalculadoraEmCsharp\obj\Debug\net8.0\ref\CalculadoraEmCsharp.dll
