@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("CalculadoraEmCsharp")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+f80604f159266f88f7fc6fdd1e9fcd86a200febb")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+d0e6a0fb279511f52f1d5157b6def78d487bc829")]
 [assembly: System.Reflection.AssemblyProductAttribute("CalculadoraEmCsharp")]
 [assembly: System.Reflection.AssemblyTitleAttribute("CalculadoraEmCsharp")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

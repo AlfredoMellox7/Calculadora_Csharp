@@ -25,11 +25,11 @@ class Program
         {
             case 1: Soma(); break;
             case 2: Subtracao(); break;
-            case 3: Divisao(); break;             
+            case 3: Divisao(); break;
             case 4: Multiplicacao(); break;          // Menu das funções 
             case 5: RaizQuadrada(); break;
             case 6: System.Environment.Exit(0); break;
-            default:Menu(); break;
+            default: Menu(); break;
         }
     }
     static void Soma()
@@ -43,10 +43,18 @@ class Program
         float? soma = valor1 + valor2;                                           // Cálculo da soma 
         Console.WriteLine(" ");
         Console.WriteLine($"O resultado da soma do seu cálculo é {soma} .");     // Output para o usuário
-        Console.WriteLine("----------------------------");        
-        Console.WriteLine("Deseja fazer outro cálculo ?");
-        Console.ReadKey();
-        Menu();
+        Console.WriteLine("----------------------------");
+        Console.WriteLine("Deseja fazer outro cálculo ? (S/N)");
+        char resposta = Convert.ToChar(Console.ReadLine()!);
+        if (resposta != 'S')
+        {
+            Console.WriteLine(" ");
+            Console.WriteLine("Programa encerrado .");
+        }
+        else
+        {
+            Menu();
+        }
     }
     static void Subtracao()
 
@@ -60,9 +68,17 @@ class Program
         Console.WriteLine(" ");
         Console.WriteLine($"O resultado da subtração do seu cálculo é {subtracao} .");      // Output para o usuário
         Console.WriteLine("----------------------------");
-        Console.WriteLine("Deseja fazer outro cálculo ?");
-        Console.ReadKey();
-        Menu();
+        Console.WriteLine("Deseja fazer outro cálculo ? (S/N)");
+        char resposta = Convert.ToChar(Console.ReadLine()!);
+        if (resposta != 'S')
+        {
+            Console.WriteLine(" ");
+            Console.WriteLine("Programa encerrado .");
+        }
+        else
+        {
+            Menu();
+        }
     }
     static void Divisao()
     {
@@ -75,9 +91,17 @@ class Program
         Console.WriteLine(" ");
         Console.WriteLine($"O resultado da divisão do seu cálculo é {divisao} .");              // Output para o usuário
         Console.WriteLine("----------------------------");
-        Console.WriteLine("Deseja fazer outro cálculo ?");
-        Console.ReadKey();
-        Menu();
+        Console.WriteLine("Deseja fazer outro cálculo ? (S/N)");
+        char resposta = Convert.ToChar(Console.ReadLine()!);
+        if (resposta != 'S')
+        {
+            Console.WriteLine(" ");
+            Console.WriteLine("Programa encerrado .");
+        }
+        else
+        {
+            Menu();
+        }
     }
     static void Multiplicacao()
     {
@@ -86,13 +110,21 @@ class Program
         float? valor1 = float.Parse(Console.ReadLine()!);                                       // Captação dos dados e conversão para variável tipo float
         Console.WriteLine("Certo, agora escolha o segundo valor : ");                           // Requisição de dados ao usuário
         float? valor2 = float.Parse(Console.ReadLine()!);                                       // Captação dos dados e conversão para variável tipo float
-        float? multiplicacao = valor1*valor2;
+        float? multiplicacao = valor1 * valor2;
         Console.WriteLine(" ");                                                                 // Calculo da multiplicação
         Console.WriteLine($"O resultado da multiplicação do seu cálculo é {multiplicacao} .");  // Output para o usuário
         Console.WriteLine("----------------------------");
-        Console.WriteLine("Deseja fazer outro cálculo ?");
-        Console.ReadKey();
-        Menu();
+        Console.WriteLine("Deseja fazer outro cálculo ? (S/N)");
+        char resposta = Convert.ToChar(Console.ReadLine()!);
+        if (resposta != 'S')
+        {
+            Console.WriteLine(" ");
+            Console.WriteLine("Programa encerrado .");
+        }
+        else
+        {
+            Menu();
+        }
     }
     static void RaizQuadrada()
     {
@@ -103,9 +135,17 @@ class Program
         Console.WriteLine(" ");
         Console.WriteLine($"A raíz quadrada é {raizQuadrada} .");   // Output para o usuário
         Console.WriteLine("----------------------------");
-        Console.WriteLine("Deseja fazer outro cálculo ?");
-        Console.ReadKey();
-        Menu();
+        Console.WriteLine("Deseja fazer outro cálculo ? (S/N)");
+        char resposta = Convert.ToChar(Console.ReadLine()!);
+        if (resposta != 'S')
+        {
+            Console.WriteLine(" ");
+            Console.WriteLine("Programa encerrado .");
+        }
+        else
+        {
+            Menu();
+        }
     }
 
 }
